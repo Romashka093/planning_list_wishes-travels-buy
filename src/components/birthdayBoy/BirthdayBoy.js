@@ -15,6 +15,7 @@ export function BirthdayBoy() {
 
 	useEffect(() => {
 		dispatch(currentBirthdayBoys(category));
+		// eslint-disable-next-line
 	}, []);
 
 	return (

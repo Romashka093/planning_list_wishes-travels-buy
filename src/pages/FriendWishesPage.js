@@ -24,6 +24,7 @@ export const FriendWishesPage = () => {
 	const { friend } = useParams();
 	useEffect(() => {
 		currentBirthdayBoyWishes(friend);
+		// eslint-disable-next-line
 	}, []);
 
 	const currentBirthdayBoyWishes = (id) => {
